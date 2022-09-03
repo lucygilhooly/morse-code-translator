@@ -1,14 +1,14 @@
 import { translateToMorse } from "./translator";
 
 describe('Testing translateToMorse', () => {
-  it("'a' should translate to be *-", ()=> {
+  it("'a' should translate to be .-", ()=> {
     // Arrange
       let string
     // Act
       string = 'a';
       let result = translateToMorse(string)
     // Assert
-    expect(result).toBe('*-');
+    expect(result).toBe('.-');
   })
 
  })
