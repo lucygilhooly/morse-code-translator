@@ -8,12 +8,9 @@
 </head>
 <body>
     <h1>Morse Code Translator</h1>
-
-    <input placeholder="English --> Morse Code" id="text-input">
-    <button id="translate-btn">click to translate!</button>
-    <p> Translated text will appear below</p>
-    <div id="output"></div>
-
+   
+    <input type="text" id="myText" placeholder="Enter your Plaintext" onchange="translateToMorse(this.value)">
+    <p id="morseCode"></p>
 
     <script src="./translator.js"></script>
 </body>
