@@ -1,6 +1,6 @@
 // instead of grabbing everything at the top of the page, called document.getElementById within the function
 
-function translateToMorse(plainText) {
+const translateToMorse = (plainText) => {
     // set the text value to an empty string
     document.getElementById("myText").value = "";
     //store morse code and the alphabet within arrays to allow us to iterate through them with a for loop
@@ -11,7 +11,6 @@ function translateToMorse(plainText) {
     for (var i = 0; i < plainText.length; i++) {
         for (var j = 0; j < alphabet.length; j++) {
             // converting inputted text to caps to compare to alphabet array
-            
             if (plainText[i].toUpperCase() == alphabet[j]) {
                 text += morseCode[j] + " ";
             }

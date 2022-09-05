@@ -1,7 +1,7 @@
 "use strict";
 
 // instead of grabbing everything at the top of the page, called document.getElementById within the function
-function translateToMorse(plainText) {
+var translateToMorse = function translateToMorse(plainText) {
   // set the text value to an empty string
   document.getElementById("myText").value = ""; //store morse code and the alphabet within arrays to allow us to iterate through them with a for loop
 
@@ -19,4 +19,4 @@ function translateToMorse(plainText) {
   }
 
   document.getElementById("morseCode").innerHTML = text;
-}
+};
