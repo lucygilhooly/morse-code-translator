@@ -2,7 +2,7 @@ This is a translator which translates plain english into morse code.
 
 It was built using HTML and javascript, there has been no styling added yet this will be a future addition.
 
-how it workks is you just input what you would like to translate and hit the enter key and your morse code translation will appear below.
+how it works is you just input what you would like to translate and hit the enter key and your morse code translation will appear below.
 
 I originally planned to use an object to store my alphabet in english and morse code but was struggling to gain functionality this way so changed to a more familiar method of storing within arrays.
 
